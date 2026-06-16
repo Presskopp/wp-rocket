@@ -732,7 +732,7 @@ class Controller extends Abstract_Render {
 
 		if ( $this->subscription_controller->has_inactive_subscription() || $this->subscription_controller->is_license_invalid() ) {
 			$class         .= ' wpr-cdn-status--expired';
-			$paused_details = __( 'RocketCDN is currently paused because your WPRocket licence has expired.', 'rocket' );
+			$paused_details = __( 'RocketCDN is currently paused because your WP Rocket licence has expired.', 'rocket' );
 		}
 
 		if ( $is_paused ) {
